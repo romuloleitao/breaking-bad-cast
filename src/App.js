@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const App = () => {
   const [items, setItems] = useState([])
-  const [isLoading, setsetIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true)
   const [query, setQuery] = useState('')
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const App = () => {
         const result = await axios(`https://www.breakingbadapi.com/api/characters?name=${query}`)
         
         setItems(result.data)
-        setsetIsLoading(false)
+        setIsLoading(false)
       }
 
       fetchItems()
