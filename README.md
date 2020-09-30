@@ -1,3 +1,7 @@
+It is possible to see the application at this address: https://breakingbadcast.vercel.app/
+
+App made with React that shows Breaking Bad cast.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
